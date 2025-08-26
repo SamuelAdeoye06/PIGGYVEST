@@ -1,0 +1,21 @@
+.navbar-collapse {
+    max-height: none !important;
+    height: auto !important;
+}
+.navbar-nav-scroll {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+
+  .sec1{
+        margin-top: -10px;
+    }
+    .main{
+        margin: auto;
+        width: fit-content;
+    }
+    .space{
+        margin: auto;
+        width: fit-content;
+    }

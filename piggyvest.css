@@ -884,10 +884,29 @@
 .animate__delay-15s {
     animation-delay: 1.5s;
 }
+.navbar-collapse {
+    max-height: none !important;
+    height: auto !important;
+}
+.navbar-nav-scroll {
+    max-height: none !important;
+    overflow: visible !important;
+  }
 
 /* responsiveness */
 /* mobile */
 @media screen and (max-width:480px) {
+    .sec1{
+        margin-top: -10px;
+    }
+    .main{
+        margin: auto;
+        width: fit-content;
+    }
+    .space{
+        margin: auto;
+        width: fit-content;
+    }
     .bigflex1{
         flex-direction: column;
         padding: 6px 10px;
@@ -1126,6 +1145,17 @@
 }
 /* tablet */
 @media screen and (min-width:481px) and (max-width:768px) {
+    .sec1{
+        margin-top: -10px;
+    }
+    .main{
+        margin: auto;
+        width: fit-content;
+    }
+    .space{
+        margin: auto;
+        width: fit-content;
+    }
     .bigflex1{
         flex-direction: column;
         padding: 6px 10px;
@@ -1257,6 +1287,17 @@
 }
 /* larger tablets */
 @media screen and (min-width:769px) and (max-width:1080px) {
+    .sec1{
+        margin-top: -10px;
+    }
+    .main{
+        margin: auto;
+        width: fit-content;
+    }
+    .space{
+        margin: auto;
+        width: fit-content;
+    }
     .bigflex1{
         flex-direction: column;
         padding: 6px 10px;
