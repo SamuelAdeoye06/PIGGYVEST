@@ -872,6 +872,18 @@
 .footpad{
     padding: 0px 100px;
 }
+.animate__delay-05s {
+    animation-delay: 0.5s;
+  }
+.animate__delay-07s {
+    animation-delay: 0.7s;
+}  
+.animate__delay-13s {
+    animation-delay: 1.3s;
+}
+.animate__delay-15s {
+    animation-delay: 1.5s;
+}
 
 /* responsiveness */
 /* mobile */
