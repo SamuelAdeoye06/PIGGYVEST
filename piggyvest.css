@@ -234,8 +234,18 @@
 .blue:hover{
     background-color: rgb(18,34,49);
 }
+.blue:hover img{
+   filter: brightness(0.9) invert(2);
+   
+}
 .linkblue{
     text-decoration: none;
+}
+.right{
+    transform: rotateY(120deg);
+}
+.blue:hover .right{
+    transform: rotateY(0deg);
 }
 .blue{
     border-radius: 20px;
