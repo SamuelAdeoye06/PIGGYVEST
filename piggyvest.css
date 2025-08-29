@@ -242,7 +242,7 @@
     text-decoration: none;
 }
 .right{
-    transform: rotateY(120deg);
+    transform: rotateY(60deg);
 }
 .blue:hover .right{
     transform: rotateY(0deg);
