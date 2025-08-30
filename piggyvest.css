@@ -696,8 +696,7 @@
     width: 435px;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 60px;
 }
 .uhoverr{
     margin-top: 140px;
@@ -907,6 +906,9 @@
 /* responsiveness */
 /* mobile */
 @media screen and (max-width:480px) {
+    .headerimg{
+        width: 125px;
+    }
     .padding{
         padding: 10px 10px;
     }
@@ -946,44 +948,47 @@
     .picture{
         /* border: 1px solid red; */
         height: 360px;
-        width: 350px;
+        width: 300px;
         margin: auto;
     }
     .pic{
-        width: 120px;
+        width: 140px;
         margin-top: 45px;
     }
     .pic1{
-        width: 110px;
-        margin-top: 70px;
+        width: 130px;
+        margin-top: 65px;
     }
     .pic2{
-        width: 100px;
-        margin-top: 70px;
+        width: 120px;
+        margin-top: 65px;
     }
     .pic3{
-        width: 130px;
+        width: 135px;
         margin-top: 35px;
     }
     .pic4{
-        width: 125px;
-        margin-top: 95px;
+        width: 130px;
+        margin-top: 90px;
     }
     .pic5{
-        width: 120px;
-        margin-top: 110px;
+        width: 125px;
+        margin-top: 105px;
     }
     .ppic1{
         width: 160px;
-        margin-left: -15px;
+        margin-left: -25px;
     }
     .ppic2{
         width: 180px;
-        margin-right: -65px;
+        margin-right: -75px;
     }
     .bigflex2{
         flex-direction: column;
         padding: 0px 20px;
+    }
+    .gflex{
+        right: 15px;
     }
     .imag{
         margin: auto;
@@ -1009,32 +1014,32 @@
         width: 150px;
     }
     .box1{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
     .box2{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
     .box3{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
     .box4{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
     .box5{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
     .box6{
-        width: 350px;
+        width: 340px;
         height: 400px;
         text-align: center;
     }
@@ -1068,7 +1073,14 @@
         margin-top: 20px;
     }
     .secimg img{
-        width: 70%;
+        width: 100%;
+        max-width: 300px;
+        /* left: 20px; */
+        /* border: 1px solid red; */
+        /* margin: auto; */
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .padit{
         padding: 0px 20px;
