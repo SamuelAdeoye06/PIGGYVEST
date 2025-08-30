@@ -995,7 +995,7 @@
         opacity: 0;
     }
     .ggrid{
-        padding: 0px 0px;
+        padding: 0px 10px;
         display: grid;
         grid-template-columns: 1fr;
         width: fit-content;
@@ -1068,7 +1068,7 @@
         margin-top: 20px;
     }
     .secimg img{
-        width: 350px;
+        width: 70%;
     }
     .padit{
         padding: 0px 20px;
