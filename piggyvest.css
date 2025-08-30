@@ -696,7 +696,8 @@
     width: 435px;
     position: absolute;
     bottom: 0;
-    right: 60px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .uhoverr{
     margin-top: 140px;
@@ -906,6 +907,9 @@
 /* responsiveness */
 /* mobile */
 @media screen and (max-width:480px) {
+    .padding{
+        padding: 10px 10px;
+    }
     .sec1{
         margin-top: -10px;
     }
@@ -991,9 +995,12 @@
         opacity: 0;
     }
     .ggrid{
-        padding: 0px 40px;
+        padding: 0px 0px;
         display: grid;
         grid-template-columns: 1fr;
+        width: fit-content;
+        margin: auto;
+        /* border: 1px solid red; */
     }
     .adjust h5{
         font-size: 30px;
@@ -1062,7 +1069,6 @@
     }
     .secimg img{
         width: 350px;
-        left: 20px;
     }
     .padit{
         padding: 0px 20px;
