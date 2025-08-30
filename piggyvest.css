@@ -912,10 +912,14 @@
     .padding{
         padding: 10px 0px;
     }
-    .navbar-toggler {
-        padding: 0.25rem 0.5rem;
-        font-size: 0.8rem;
-      }
+    .navbar-toggler-icon {
+        width: 15px;
+        height: 15px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+        padding: 0 0!important;
+    }  
     .sec1{
         margin-top: -10px;
     }
